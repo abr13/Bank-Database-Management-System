@@ -54,7 +54,6 @@
             this.AccNoTextField.Name = "AccNoTextField";
             this.AccNoTextField.Size = new System.Drawing.Size(190, 20);
             this.AccNoTextField.TabIndex = 28;
-            this.AccNoTextField.TextChanged += new System.EventHandler(this.CustIDTextField_TextChanged);
             // 
             // label3
             // 
@@ -71,7 +70,6 @@
             this.TypeTextField.Name = "TypeTextField";
             this.TypeTextField.Size = new System.Drawing.Size(190, 20);
             this.TypeTextField.TabIndex = 32;
-            this.TypeTextField.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // BalTextField
             // 
@@ -105,7 +103,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(462, 181);
             this.dataGridView1.TabIndex = 38;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label4
             // 
@@ -143,7 +140,6 @@
             this.SearchAccTextField.Name = "SearchAccTextField";
             this.SearchAccTextField.Size = new System.Drawing.Size(190, 20);
             this.SearchAccTextField.TabIndex = 42;
-            this.SearchAccTextField.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label5
             // 
@@ -173,7 +169,6 @@
             this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 47;
             this.label6.Text = "Branch ID :";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Br_idtextfield
             // 
@@ -181,7 +176,6 @@
             this.Br_idtextfield.Name = "Br_idtextfield";
             this.Br_idtextfield.Size = new System.Drawing.Size(190, 20);
             this.Br_idtextfield.TabIndex = 46;
-            this.Br_idtextfield.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // label7
             // 

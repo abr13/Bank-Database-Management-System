@@ -180,9 +180,5 @@ namespace Bank_Database_Management_System.User_Controls
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

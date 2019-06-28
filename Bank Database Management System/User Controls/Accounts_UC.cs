@@ -77,26 +77,6 @@ namespace Bank_Database_Management_System.User_Controls
             }
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void CustIDTextField_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void AddButton_Click(object sender, EventArgs e)
         {
             if (AccNoTextField.Text != "" && TypeTextField.Text != "" && BalTextField.Text!="" && Br_idtextfield.Text!=""&& cust_idtextfield.Text!="")
@@ -185,14 +165,5 @@ namespace Bank_Database_Management_System.User_Controls
             accountDatagridview();
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
